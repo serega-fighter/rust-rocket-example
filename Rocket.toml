@@ -1,0 +1,16 @@
+# Per profile configs
+
+[default]
+address = "127.0.0.1"
+port = 8000
+workers = 16
+keep_alive = 5
+
+[default.limits]
+form = "32KiB"
+data-form = "2MiB"
+file = "1MiB"
+string = "8KiB"
+bytes = "8KiB"
+json = "1MiB"
+msgpack = "1MiB"
